@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(awk 'NR==381{print substr\\($0,1,3000\\); exit}' index.html)",
+      "Bash(git status *)"
+    ]
+  }
+}
